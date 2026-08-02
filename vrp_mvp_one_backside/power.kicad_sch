@@ -5206,7 +5206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d89939b4-a4ad-4a73-9baf-2d1099126a33")
-		(property "Reference" "2n6109 equivlent"
+		(property "Reference" "2n6109 equivlent1"
 			(at 240.03 41.148 0)
 			(effects
 				(font
@@ -5288,7 +5288,7 @@
 		(instances
 			(project ""
 				(path "/ecce2e6c-c2db-4018-89d2-45c9686210bb/101e8b6a-28dc-47a4-96e8-6d71b1028059"
-					(reference "2n6109 equivlent")
+					(reference "2n6109 equivlent1")
 					(unit 1)
 				)
 			)
