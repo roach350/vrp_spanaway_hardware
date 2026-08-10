@@ -1991,6 +1991,28 @@
 			)
 		)
 	)
+	(global_label "MODEM_UART_TX"
+		(shape input)
+		(at 111.76 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cbb8cb9-3a39-46ee-83d1-6153eebb2c67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.1665 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_RESET"
 		(shape input)
 		(at 36.83 166.37 180)
@@ -2211,6 +2233,28 @@
 			)
 		)
 	)
+	(global_label "MODEM_UART_RX"
+		(shape input)
+		(at 111.76 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99fa82dc-4ec5-408c-bb97-1b9e85116b67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.1665 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2S_MCU_SCK"
 		(shape input)
 		(at 45.72 107.95 180)
@@ -2229,6 +2273,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MODEM_ENABLE"
+		(shape input)
+		(at 111.76 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2615d4b-aedb-4e8c-8d5f-e29c7947bf54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.1665 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
