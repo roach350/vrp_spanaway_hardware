@@ -3035,6 +3035,16 @@
 		)
 		(uuid "a701d59f-817e-46d0-b29b-f7e1819c213d")
 	)
+	(text "I want a board mount vibrator"
+		(exclude_from_sim no)
+		(at 267.97 127.762 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae2f8b78-9c8f-4ada-b105-cad3ccb8a7e0")
+	)
 	(junction
 		(at 179.07 110.49)
 		(diameter 0)
@@ -3079,6 +3089,26 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04605703-c54d-496c-ae9c-b133ad5c7fa3")
+	)
+	(wire
+		(pts
+			(xy 128.27 83.82) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07735da8-1f89-4af9-a86a-cf0d6a75bcb9")
+	)
+	(wire
+		(pts
 			(xy 250.19 120.65) (xy 250.19 128.27)
 		)
 		(stroke
@@ -3109,6 +3139,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 76.2) (xy 127 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e10e31-f2b2-4d74-a7b8-47f4de10f103")
+	)
+	(wire
+		(pts
 			(xy 248.92 128.27) (xy 243.84 128.27)
 		)
 		(stroke
@@ -3126,6 +3166,16 @@
 			(type default)
 		)
 		(uuid "426513f5-152c-4a41-b7bb-9ef9c0c559dd")
+	)
+	(wire
+		(pts
+			(xy 128.27 78.74) (xy 127 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fb3d31-4358-4318-92ad-7086c6d4776d")
 	)
 	(wire
 		(pts
@@ -3186,6 +3236,16 @@
 			(type default)
 		)
 		(uuid "7a67bab9-8786-44aa-aa4f-135fae6f94e7")
+	)
+	(wire
+		(pts
+			(xy 128.27 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c09500a-fcca-49b0-bac7-ce304c9d14ee")
 	)
 	(wire
 		(pts
@@ -3299,6 +3359,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 81.28) (xy 127 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee40fe75-2d0f-4ce6-b900-428d4e9fcaa7")
+	)
+	(wire
+		(pts
 			(xy 222.25 133.35) (xy 224.79 133.35)
 		)
 		(stroke
@@ -3351,9 +3421,9 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "VBAT+"
 		(shape input)
-		(at 127 81.28 0)
+		(at 129.54 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3363,7 +3433,7 @@
 		)
 		(uuid "0e0d81ea-f7a9-48aa-8838-ae7529fb526f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.0976 81.28 0)
+			(at 136.6376 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,7 +3511,7 @@
 	)
 	(global_label "3V"
 		(shape input)
-		(at 127 78.74 0)
+		(at 128.27 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3451,7 +3521,7 @@
 		)
 		(uuid "141e79da-4fdb-4083-af45-3969578b68cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.0976 78.74 0)
+			(at 135.3676 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,6 +3597,28 @@
 			)
 		)
 	)
+	(global_label "LED_FLASH_ENABLE"
+		(shape input)
+		(at 163.83 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22afe3e6-2095-429a-84a2-00bb10fca551")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.958 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_DP"
 		(shape input)
 		(at 88.9 165.1 0)
@@ -3551,7 +3643,7 @@
 	)
 	(global_label "MODEM_UART_RX"
 		(shape input)
-		(at 127 86.36 0)
+		(at 128.27 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3561,7 +3653,29 @@
 		)
 		(uuid "2c08aae8-805d-4034-8919-41cf1371ebc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.4065 86.36 0)
+			(at 146.6765 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_MODEM_DIN"
+		(shape input)
+		(at 163.83 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40ac9e9d-177d-412a-8cfb-669f7241074d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.6318 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3731,7 @@
 	)
 	(global_label "MODEM_UART_TX"
 		(shape input)
-		(at 127 83.82 0)
+		(at 128.27 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3627,7 +3741,7 @@
 		)
 		(uuid "4f7912e9-8b7a-41bf-b08a-e96dab0d567c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.4065 83.82 0)
+			(at 146.6765 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3775,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 217.17 80.01 90)
+		(at 259.08 88.9 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3671,7 +3785,7 @@
 		)
 		(uuid "52f423a8-86d0-4079-b360-f09500465594")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.17 72.9124 90)
+			(at 259.08 81.8024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3819,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 226.06 80.01 90)
+		(at 267.97 88.9 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3715,7 +3829,29 @@
 		)
 		(uuid "619cdb0e-6c9e-42f4-90bb-2339e710e682")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.06 72.9124 90)
+			(at 267.97 81.8024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_MODEM_SCK"
+		(shape input)
+		(at 163.83 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67f13c76-cd1c-48d5-bc7a-0da05c75c582")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.6318 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3815,7 +3951,7 @@
 	)
 	(global_label "I2C_SDL"
 		(shape input)
-		(at 226.06 87.63 270)
+		(at 267.97 96.52 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3825,7 +3961,7 @@
 		)
 		(uuid "9a14c0ab-e210-49fd-a2a6-d7dee82fe99d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.06 98.1747 90)
+			(at 267.97 107.0647 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +3995,7 @@
 	)
 	(global_label "MODEM_ENABLE"
 		(shape input)
-		(at 127 88.9 0)
+		(at 128.27 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3869,7 +4005,7 @@
 		)
 		(uuid "a9880716-4cab-47b4-a963-d15ee3ca5d57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.4065 88.9 0)
+			(at 146.6765 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +4039,7 @@
 	)
 	(global_label "I2C_SDA"
 		(shape input)
-		(at 217.17 87.63 270)
+		(at 259.08 96.52 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3913,7 +4049,7 @@
 		)
 		(uuid "acf9ea28-7fd7-4d78-86a6-0d36a0cefc2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.17 98.2352 90)
+			(at 259.08 107.1252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +4061,7 @@
 	)
 	(global_label "LCD_BACKLIGHT_SINK"
 		(shape input)
-		(at 191.77 104.14 90)
+		(at 191.77 105.41 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3935,7 +4071,7 @@
 		)
 		(uuid "b568b1e9-7b4d-41a1-a4ee-1a0359da77b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.77 81.1371 90)
+			(at 191.77 82.4071 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,7 +4083,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 127 76.2 0)
+		(at 128.27 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3957,7 +4093,7 @@
 		)
 		(uuid "c66a6ddd-74c8-48b5-be8f-09bb3ff4d8f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.0976 76.2 0)
+			(at 135.3676 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,6 +4116,28 @@
 		(uuid "cf035206-cb10-4075-85d9-8a04fe123ead")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.91 127.5224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_MODEM_FS"
+		(shape input)
+		(at 163.83 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3b5b2c4-7fea-4b05-b2c0-f4a39bf39529")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.6318 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,6 +4182,28 @@
 		(uuid "e54f0e31-c362-4d40-b469-3ec47699243c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.4013 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_MODEM_DOUT"
+		(shape input)
+		(at 163.83 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f646b6ca-0148-40bd-aa4f-5883a9035d02")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.6318 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,7 +5290,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 217.17 83.82 0)
+		(at 259.08 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5119,7 +5299,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d265e44-0e77-4ac8-8f04-9d92df715ddd")
 		(property "Reference" "R4"
-			(at 219.71 82.5499 0)
+			(at 261.62 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +5308,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 219.71 85.0899 0)
+			(at 261.62 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,7 +5317,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 218.186 84.074 90)
+			(at 260.096 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,7 +5326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 83.82 0)
+			(at 259.08 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +5335,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 217.17 83.82 0)
+			(at 259.08 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +5846,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 226.06 83.82 0)
+		(at 267.97 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5675,7 +5855,7 @@
 		(fields_autoplaced yes)
 		(uuid "87d97d76-e46b-43ab-affe-58fb68fa8664")
 		(property "Reference" "R5"
-			(at 228.6 82.5499 0)
+			(at 270.51 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +5864,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 228.6 85.0899 0)
+			(at 270.51 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,7 +5873,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 227.076 84.074 90)
+			(at 268.986 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,7 +5882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 83.82 0)
+			(at 267.97 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,7 +5891,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 226.06 83.82 0)
+			(at 267.97 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +6644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 180.086 114.554 90)
 			(effects
 				(font
@@ -6845,7 +7025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 171.704 109.474 90)
 			(effects
 				(font

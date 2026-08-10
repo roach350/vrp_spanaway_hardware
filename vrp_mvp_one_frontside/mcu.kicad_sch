@@ -2365,6 +2365,28 @@
 			)
 		)
 	)
+	(global_label "LED_FLASH_ENABLE"
+		(shape input)
+		(at 45.72 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c792aaec-a89e-4c39-a677-d520cade28a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.592 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW_ROW_D"
 		(shape input)
 		(at 45.72 90.17 180)

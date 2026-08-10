@@ -2131,7 +2131,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 102.87) (xy 158.75 102.87)
+			(xy 154.94 102.87) (xy 173.99 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2148,16 +2148,6 @@
 			(type default)
 		)
 		(uuid "12d6b783-d44b-4a6c-b792-43153427d862")
-	)
-	(wire
-		(pts
-			(xy 166.37 110.49) (xy 168.91 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "140daef6-1e26-412c-abdd-5498914a1ab1")
 	)
 	(wire
 		(pts
@@ -2181,7 +2171,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 100.33) (xy 158.75 100.33)
+			(xy 154.94 100.33) (xy 179.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2211,13 +2201,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 100.33) (xy 179.07 100.33)
+			(xy 69.85 66.04) (xy 73.66 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "701bda3d-efc8-43c2-b17f-dbe77759f1d0")
+		(uuid "6aa35e51-7924-4069-95fd-405e5b138dda")
 	)
 	(wire
 		(pts
@@ -2228,6 +2218,16 @@
 			(type default)
 		)
 		(uuid "7b287ceb-c4c1-4585-a763-f821ab9ee0c6")
+	)
+	(wire
+		(pts
+			(xy 59.69 66.04) (xy 62.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e282488-3249-4c35-8f64-057833cec517")
 	)
 	(wire
 		(pts
@@ -2251,13 +2251,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 102.87) (xy 173.99 102.87)
+			(xy 69.85 68.58) (xy 73.66 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dd84821-9eca-4036-b9d7-b313df63dc6c")
+		(uuid "b58f4f69-3a27-43dd-aada-4a053d0c684e")
 	)
 	(wire
 		(pts
@@ -2281,7 +2281,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 110.49) (xy 158.75 110.49)
+			(xy 154.94 110.49) (xy 168.91 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2318,6 +2318,16 @@
 			(type default)
 		)
 		(uuid "dea3180b-c028-4555-8492-a412f220e695")
+	)
+	(wire
+		(pts
+			(xy 59.69 68.58) (xy 62.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7096113-5c1b-4ed6-aa00-5927ce632662")
 	)
 	(wire
 		(pts
@@ -2537,9 +2547,9 @@
 			)
 		)
 	)
-	(global_label "MODEM_USB_D_"
+	(global_label "MODEM_USB_D-"
 		(shape input)
-		(at 73.66 68.58 180)
+		(at 59.69 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2549,7 +2559,7 @@
 		)
 		(uuid "62a2514f-dec0-4743-9ee7-b7181aecef33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.4349 68.58 0)
+			(at 41.4649 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +2657,7 @@
 			)
 		)
 	)
-	(global_label "PCM_CLK"
+	(global_label "PCM_MODEM_CLK"
 		(shape input)
 		(at 109.22 81.28 0)
 		(fields_autoplaced yes)
@@ -2669,9 +2679,9 @@
 			)
 		)
 	)
-	(global_label "PCM_CODEC_DIN"
+	(global_label "PCM_MODEM_DIN"
 		(shape input)
-		(at 109.22 83.82 0)
+		(at 109.22 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2681,7 +2691,7 @@
 		)
 		(uuid "8ad95a83-2111-415d-9b76-1b32a3143c5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.4171 83.82 0)
+			(at 126.4171 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +2857,7 @@
 	)
 	(global_label "MODEM_USB_D+"
 		(shape input)
-		(at 73.66 66.04 180)
+		(at 59.69 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2857,7 +2867,7 @@
 		)
 		(uuid "c7fd0dda-ff3e-459f-8d65-c4169708a404")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.4349 66.04 0)
+			(at 41.4649 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2889,7 +2899,7 @@
 			)
 		)
 	)
-	(global_label "PCM_SYNC"
+	(global_label "PCM_MODEM_SYNC"
 		(shape input)
 		(at 109.22 88.9 0)
 		(fields_autoplaced yes)
@@ -2911,9 +2921,9 @@
 			)
 		)
 	)
-	(global_label "PCM_CODEC_DOUT"
+	(global_label "PCM_MODEM_DOUT"
 		(shape input)
-		(at 109.22 86.36 0)
+		(at 109.22 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2923,7 +2933,7 @@
 		)
 		(uuid "ea5f55b2-53a2-4d29-86c1-be4e600f3d63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.4171 86.36 0)
+			(at 126.4171 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,31 +3033,31 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 162.56 102.87 90)
+		(at 66.04 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0bfb8f0f-9503-440b-ba11-f18f71670b56")
-		(property "Reference" "R6"
-			(at 161.544 105.156 90)
+		(uuid "1e3214ad-cba3-470e-8cde-86d04023ae27")
+		(property "Reference" "R15"
+			(at 65.532 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 164.338 105.156 90)
+		(property "Value" "90"
+			(at 65.532 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 162.814 101.854 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 65.786 69.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,7 +3066,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 102.87 0)
+			(at 66.04 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,124 +3075,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 162.56 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 162.56 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 162.56 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 162.56 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 162.56 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 162.56 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 162.56 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 162.56 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 162.56 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 162.56 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 162.56 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 162.56 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 162.56 102.87 90)
+			(at 66.04 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,15 +3084,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2ee13983-fb5c-49d4-8d37-6af3b0d95eee")
+			(uuid "fb512ecd-28c8-44fe-8e34-419c2a855d57")
 		)
 		(pin "1"
-			(uuid "e41933e7-1dae-4ce4-a854-07c29d906817")
+			(uuid "a51e4de7-aae9-4f45-9252-be55ad93c4a6")
 		)
 		(instances
 			(project "vrp_mvp_one_backside"
 				(path "/ecce2e6c-c2db-4018-89d2-45c9686210bb/007f07dd-e1d8-48c1-838b-1cbe7cc0f1bd"
-					(reference "R6")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3546,6 +3439,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 66.04 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44805986-7a0f-49fa-a0bd-ece30fa2663b")
+		(property "Reference" "R14"
+			(at 66.04 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "90"
+			(at 66.04 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 66.294 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9db8554e-0022-4fc9-a0e9-1df238fb8596")
+		)
+		(pin "1"
+			(uuid "c4d677ed-054e-489f-854e-e485e1f46902")
+		)
+		(instances
+			(project ""
+				(path "/ecce2e6c-c2db-4018-89d2-45c9686210bb/007f07dd-e1d8-48c1-838b-1cbe7cc0f1bd"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.91 130.81 0)
 		(unit 1)
@@ -3770,7 +3731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 174.9552 130.81 0)
 			(effects
 				(font
@@ -4226,7 +4187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 97.536 172.974 90)
 			(effects
 				(font
@@ -4296,7 +4257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 185.1152 130.81 0)
 			(effects
 				(font
@@ -4589,190 +4550,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 162.56 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d976307-dc63-4bd5-9d25-746442e58f28")
-		(property "Reference" "R7"
-			(at 162.052 113.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 164.592 113.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 162.814 109.474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 162.56 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 162.56 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 162.56 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 162.56 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 162.56 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 162.56 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 162.56 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 162.56 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 162.56 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 162.56 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 162.56 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 162.56 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 162.56 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 162.56 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "42a17ff2-17b9-461b-be25-fa36a2fb7e1f")
-		)
-		(pin "1"
-			(uuid "d442fa51-cbe7-46b2-a2f3-57c97b907d0c")
-		)
-		(instances
-			(project "vrp_mvp_one_backside"
-				(path "/ecce2e6c-c2db-4018-89d2-45c9686210bb/007f07dd-e1d8-48c1-838b-1cbe7cc0f1bd"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 168.91 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4799,7 +4576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 169.926 91.694 90)
 			(effects
 				(font
@@ -4959,190 +4736,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 162.56 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c90dd13f-18f2-4fa4-81c5-186f37e26fd2")
-		(property "Reference" "R5"
-			(at 161.544 98.552 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 164.338 98.552 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 162.814 99.314 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 162.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 162.56 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 162.56 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 162.56 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 162.56 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 162.56 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 162.56 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 162.56 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 162.56 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 162.56 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 162.56 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 162.56 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 162.56 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 162.56 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2fd28644-1ee4-46f1-92a2-500df11fe503")
-		)
-		(pin "1"
-			(uuid "e38f50dd-8fd7-4671-b9f3-ec4e382fbaff")
-		)
-		(instances
-			(project "vrp_mvp_one_backside"
-				(path "/ecce2e6c-c2db-4018-89d2-45c9686210bb/007f07dd-e1d8-48c1-838b-1cbe7cc0f1bd"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:DMN3042L")
 		(at 109.22 168.91 0)
 		(unit 1)
@@ -5244,7 +4837,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 86.614 167.894 90)
 			(effects
 				(font
@@ -5313,7 +4906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 169.8752 130.81 0)
 			(effects
 				(font
@@ -5499,7 +5092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 180.0352 130.81 0)
 			(effects
 				(font
