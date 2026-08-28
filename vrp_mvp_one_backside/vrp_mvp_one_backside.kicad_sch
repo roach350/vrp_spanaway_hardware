@@ -2047,7 +2047,7 @@
 			)
 		)
 	)
-	(global_label "MODEM_UART_TX"
+	(global_label "UART_MODEM_TX"
 		(shape input)
 		(at 36.83 38.1 0)
 		(fields_autoplaced yes)
@@ -2091,7 +2091,7 @@
 			)
 		)
 	)
-	(global_label "MODEM_UART_RX"
+	(global_label "UART_MODEM_RX"
 		(shape input)
 		(at 36.83 40.64 0)
 		(fields_autoplaced yes)
