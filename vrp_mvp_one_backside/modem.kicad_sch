@@ -2037,304 +2037,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:DMN3042L"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "DMN3042L"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMN3042L.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "5.8A Id, 30V Vds, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DMN3042L_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DMN3042L_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2447,16 +2149,6 @@
 		)
 		(uuid "365f7a9e-b1e3-4306-b400-de38008a0799")
 	)
-	(text "Check Vgs"
-		(exclude_from_sim no)
-		(at 96.52 158.242 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "51a56a2f-00e9-4b1f-a278-46dc46a5d710")
-	)
 	(text "We may use the DMN3023L-7 instead"
 		(exclude_from_sim no)
 		(at 247.904 131.826 0)
@@ -2496,12 +2188,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f3098d3-01a6-44ab-b203-703e0e109c7e")
-	)
-	(junction
-		(at 96.52 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65b3388a-f596-4968-aaa3-863342f730c0")
 	)
 	(junction
 		(at 203.2 102.87)
@@ -2546,16 +2232,6 @@
 			(type default)
 		)
 		(uuid "08f1d4c2-5a65-4571-a654-eaff25233c7e")
-	)
-	(wire
-		(pts
-			(xy 80.01 168.91) (xy 82.55 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12d6b783-d44b-4a6c-b792-43153427d862")
 	)
 	(wire
 		(pts
@@ -2659,16 +2335,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 168.91) (xy 96.52 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b287ceb-c4c1-4585-a763-f821ab9ee0c6")
-	)
-	(wire
-		(pts
 			(xy 59.69 66.04) (xy 62.23 66.04)
 		)
 		(stroke
@@ -2746,16 +2412,6 @@
 			(type default)
 		)
 		(uuid "bc0a2357-371a-4316-80ca-a198b17767f9")
-	)
-	(wire
-		(pts
-			(xy 96.52 168.91) (xy 104.14 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cac04611-5094-4127-bcc5-5e25c284c6a0")
 	)
 	(wire
 		(pts
@@ -2882,28 +2538,6 @@
 		(uuid "22e14207-31b4-450e-bbe9-c053d7a07dcd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.91 75.4524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MODEM_SINK"
-		(shape input)
-		(at 111.76 163.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "28dc4c0c-c60b-404f-a21d-9e97ef42016f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 146.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,28 +2767,6 @@
 			)
 		)
 	)
-	(global_label "MODEM_ENABLE"
-		(shape input)
-		(at 80.01 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8690a548-2e02-4407-9675-03a2381a9bb8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.3897 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PCM_MODEM_CLK"
 		(shape input)
 		(at 109.22 81.28 0)
@@ -3234,28 +2846,6 @@
 		(uuid "91276dca-8902-4879-8c25-aba5e64d8a37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.7624 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MODEM_SINK"
-		(shape input)
-		(at 91.44 114.3 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "991750a1-985b-4621-8a39-62d0746543c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 129.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,72 +3050,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 111.76 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00f7ac33-15cc-4530-b419-dbdbcba7e2d3")
-		(property "Reference" "#PWR04"
-			(at 111.76 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6687ccc-ac27-4327-b453-1da866a01496")
-		)
-		(instances
-			(project "vrp_mvp_one_backside"
-				(path "/ecce2e6c-c2db-4018-89d2-45c9686210bb/007f07dd-e1d8-48c1-838b-1cbe7cc0f1bd"
-					(reference "#PWR04")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4658,76 +4182,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 96.52 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "810dfc46-dc78-4bde-b76b-1b16380b4338")
-		(property "Reference" "R1"
-			(at 99.06 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 99.06 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 97.536 172.974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 96.52 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ea802bea-e709-48fe-90c3-47a368801576")
-		)
-		(pin "1"
-			(uuid "1b3f0c97-109d-4508-8258-b1212040f8de")
-		)
-		(instances
-			(project ""
-				(path "/ecce2e6c-c2db-4018-89d2-45c9686210bb/007f07dd-e1d8-48c1-838b-1cbe7cc0f1bd"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 184.15 127 0)
 		(unit 1)
@@ -4916,16 +4370,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 176.53 0)
+		(at 91.44 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "99d0de7d-c20c-400c-9968-806266a4661f")
-		(property "Reference" "#PWR03"
-			(at 96.52 182.88 0)
+		(uuid "96f03dd1-2025-4bc3-beb2-96dd8f729dcb")
+		(property "Reference" "#PWR036"
+			(at 91.44 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +4388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 181.61 0)
+			(at 91.44 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +4396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 176.53 0)
+			(at 91.44 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,7 +4405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 176.53 0)
+			(at 91.44 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +4414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 176.53 0)
+			(at 91.44 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,12 +4423,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e450b60-2a8e-47b6-86be-55abc35f95f1")
+			(uuid "7440cdce-d64c-4ce3-b11c-365ef304941f")
 		)
 		(instances
 			(project "vrp_mvp_one_backside"
 				(path "/ecce2e6c-c2db-4018-89d2-45c9686210bb/007f07dd-e1d8-48c1-838b-1cbe7cc0f1bd"
-					(reference "#PWR03")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5308,150 +4762,6 @@
 			(project ""
 				(path "/ecce2e6c-c2db-4018-89d2-45c9686210bb/007f07dd-e1d8-48c1-838b-1cbe7cc0f1bd"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:DMN3042L")
-		(at 109.22 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2f14b6b-033d-4cea-8e56-ed07059f0f92")
-		(property "Reference" "Q1"
-			(at 115.57 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMN3042L"
-			(at 115.57 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 114.3 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMN3042L.pdf"
-			(at 114.3 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "5.8A Id, 30V Vds, N-Channel MOSFET, SOT-23"
-			(at 109.22 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c0c83977-5b1c-4d75-8d2e-ac584cace04f")
-		)
-		(pin "2"
-			(uuid "ab731942-e8d8-44ce-a04f-fd98eda1fab9")
-		)
-		(pin "1"
-			(uuid "754e6d15-d1ec-4250-806d-dcc6dc6ef509")
-		)
-		(instances
-			(project ""
-				(path "/ecce2e6c-c2db-4018-89d2-45c9686210bb/007f07dd-e1d8-48c1-838b-1cbe7cc0f1bd"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 86.36 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e02c71e7-7eca-44c9-801c-6ca71689d04c")
-		(property "Reference" "R2"
-			(at 86.36 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 86.36 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 86.614 167.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 86.36 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ca4c90f3-6376-45e1-bd9e-8a1cfac6bc39")
-		)
-		(pin "1"
-			(uuid "58f2154a-96cb-4160-a16a-57172b5a0a1c")
-		)
-		(instances
-			(project "vrp_mvp_one_backside"
-				(path "/ecce2e6c-c2db-4018-89d2-45c9686210bb/007f07dd-e1d8-48c1-838b-1cbe7cc0f1bd"
-					(reference "R2")
 					(unit 1)
 				)
 			)

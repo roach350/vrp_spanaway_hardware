@@ -1961,7 +1961,7 @@
 	)
 	(global_label "PCM_MODEM_SYNC"
 		(shape input)
-		(at 41.91 68.58 0)
+		(at 41.91 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1971,7 +1971,7 @@
 		)
 		(uuid "2c2e1605-577c-4d91-9034-8b0112d2a637")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.1071 68.58 0)
+			(at 59.1071 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +1981,7 @@
 			)
 		)
 	)
-	(global_label "MODEM_USB_D+"
+	(global_label "MODEM_USB_D-"
 		(shape input)
 		(at 57.15 154.94 0)
 		(fields_autoplaced yes)
@@ -2049,7 +2049,7 @@
 	)
 	(global_label "UART_MODEM_TX"
 		(shape input)
-		(at 36.83 38.1 0)
+		(at 36.83 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2059,7 +2059,7 @@
 		)
 		(uuid "454f10cd-ac23-442b-8e07-8f805afee048")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.2365 38.1 0)
+			(at 55.2365 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2093,7 @@
 	)
 	(global_label "UART_MODEM_RX"
 		(shape input)
-		(at 36.83 40.64 0)
+		(at 36.83 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2103,7 +2103,7 @@
 		)
 		(uuid "4887578b-a9c2-43c3-a5ce-0abb1941ea5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.2365 40.64 0)
+			(at 55.2365 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +2269,7 @@
 	)
 	(global_label "PCM_MODEM_DOUT"
 		(shape input)
-		(at 41.91 73.66 0)
+		(at 41.91 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2279,7 +2279,7 @@
 		)
 		(uuid "c1060deb-357b-44ff-8ed6-3175d9ce0166")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.1071 73.66 0)
+			(at 59.1071 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
