@@ -2515,6 +2515,28 @@
 			)
 		)
 	)
+	(global_label "LED_STATUS"
+		(shape input)
+		(at 81.28 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b01ad9a4-46c0-4e4e-82b1-0fcfce5fe390")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.4532 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCD_BACKLIGHT_EN"
 		(shape input)
 		(at 45.72 125.73 180)
