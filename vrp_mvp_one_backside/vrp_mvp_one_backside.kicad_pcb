@@ -2011,12 +2011,13 @@
 		)
 		(property "Value" "SIM TRAY"
 			(at 0 8.5 0)
-			(layer "F.SilkS")
+			(layer "F.SilkS" knockout)
 			(uuid "f3e38d94-a07e-4882-9e79-868f121503f7")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.2)
+					(bold yes)
 				)
 			)
 		)
@@ -8883,7 +8884,7 @@
 		(descr "Mini-PCI Express bus connector full size with dual clips (https://s3.amazonaws.com/fit-iot/download/facet-cards/documents/PCI_Express_miniCard_Electromechanical_specs_rev1.2.pdf#page=28)")
 		(tags "mini pcie")
 		(property "Reference" "J3"
-			(at -17 -52.1 0)
+			(at 0 6.4 0)
 			(layer "F.SilkS")
 			(uuid "1d5e96fa-8a2d-49b7-b541-2045382be9e4")
 			(effects
@@ -10061,7 +10062,7 @@
 	(footprint "logos:lte_logo"
 		(layer "B.Cu")
 		(uuid "5c343535-c1f6-4ec0-851a-f487efcb2930")
-		(at 139.5 149 180)
+		(at 139.5 143 180)
 		(property "Reference" "G***"
 			(at 11.5 -8.5 0)
 			(layer "B.SilkS")
@@ -10757,7 +10758,7 @@
 	(footprint "logos:3gpp_logo"
 		(layer "B.Cu")
 		(uuid "d5ff6e0f-beb4-4f88-b4f1-71bd0c417c6c")
-		(at 117 152 180)
+		(at 117 146 180)
 		(property "Reference" "G***"
 			(at 3 6 0)
 			(layer "B.SilkS")
@@ -11355,7 +11356,7 @@
 		(uuid "f910102c-efa4-4486-a39e-0adec15618f1")
 	)
 	(gr_text "REV 0"
-		(at 130.657143 168 -0)
+		(at 130.657143 162 -0)
 		(layer "B.SilkS")
 		(uuid "0c706032-1a9c-46e2-bb2f-071e8eac155b")
 		(effects
@@ -11368,7 +11369,7 @@
 		)
 	)
 	(gr_text "VoLTE RETROFIT PROJECT"
-		(at 141.585715 162.5 0)
+		(at 141.585715 156.5 0)
 		(layer "B.SilkS")
 		(uuid "0fd50b0d-ea5d-4d31-86e0-c5836cb6f096")
 		(effects
@@ -11382,7 +11383,7 @@
 		)
 	)
 	(gr_text "DOUT"
-		(at 129 173 -270)
+		(at 129 165 -270)
 		(layer "B.SilkS")
 		(uuid "2a35d74c-a9c1-426d-bdc6-092021e54f2e")
 		(effects
@@ -11394,7 +11395,7 @@
 		)
 	)
 	(gr_text "DIN"
-		(at 126.5 173 -270)
+		(at 126.5 166 -270)
 		(layer "B.SilkS")
 		(uuid "2bea7754-8a6b-4e6a-9aa1-ccf4ffd4fb4c")
 		(effects
@@ -11406,7 +11407,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 136.5 173 -270)
+		(at 136.5 166 -270)
 		(layer "B.SilkS")
 		(uuid "2cba98af-c052-4e5a-8b95-df2eedd4bdd5")
 		(effects
@@ -11418,7 +11419,7 @@
 		)
 	)
 	(gr_text "CLK"
-		(at 121.5 173 -270)
+		(at 121.5 166 -270)
 		(layer "B.SilkS")
 		(uuid "35641e22-2ef8-4ee7-8928-91f5f60328b6")
 		(effects
@@ -11466,7 +11467,7 @@
 		)
 	)
 	(gr_text "CHRG"
-		(at 131.5 173 -270)
+		(at 131.5 165 -270)
 		(layer "B.SilkS")
 		(uuid "5b0148cf-739e-48cd-81bf-b9d19403ee7b")
 		(effects
@@ -11491,7 +11492,7 @@
 		)
 	)
 	(gr_text "SPANAWAY BACKSIDE"
-		(at 138.942857 165.5 -0)
+		(at 138.942857 159.5 -0)
 		(layer "B.SilkS")
 		(uuid "71820527-46e0-4827-8f05-2f87d9f62722")
 		(effects
@@ -11504,7 +11505,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 118.5 173 -270)
+		(at 119 166 -270)
 		(layer "B.SilkS")
 		(uuid "71ad0baa-78cd-46f6-895e-cd955a1cc470")
 		(effects
@@ -11515,8 +11516,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "FLSH"
-		(at 133.5 173 -270)
+	(gr_text "FLASH"
+		(at 134 164.5 -270)
 		(layer "B.SilkS")
 		(uuid "912fcc33-9063-4ec3-9df1-263c5edb6d42")
 		(effects
@@ -11565,12 +11566,13 @@
 	)
 	(gr_text "MODEM/POWER"
 		(at 98 93 270)
-		(layer "B.SilkS")
+		(layer "B.SilkS" knockout)
 		(uuid "cbbd97b0-7ff5-4aa1-bb0b-c742e3ba0be0")
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.1875)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify left bottom mirror)
 		)
@@ -11588,7 +11590,7 @@
 		)
 	)
 	(gr_text "SYNC"
-		(at 124 173 -270)
+		(at 124 165 -270)
 		(layer "B.SilkS")
 		(uuid "ed5bd39d-7e3e-410e-a614-1c44988a2955")
 		(effects
