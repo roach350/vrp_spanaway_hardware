@@ -26542,10 +26542,58 @@
 		(layer "Edge.Cuts")
 		(uuid "f8252bca-2b78-4769-b1d5-f76316b54cdb")
 	)
+	(gr_text "GND"
+		(at 103.5 106.5 90)
+		(layer "F.SilkS")
+		(uuid "6e19ecf5-9aba-4207-8e87-6a3103f964d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "STATUS"
 		(at 102 22.5 0)
 		(layer "F.SilkS")
 		(uuid "8d3c028a-24d4-4528-b7bb-3f91dd535c49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SDIO"
+		(at 96 106.5 90)
+		(layer "F.SilkS")
+		(uuid "b4d342d9-5f52-413c-92d8-6e5133e088f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3.3V"
+		(at 101 106.5 90)
+		(layer "F.SilkS")
+		(uuid "cfb1284f-a085-4f68-aeda-a774beb5aa9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SWCLK"
+		(at 98.5 106.5 90)
+		(layer "F.SilkS")
+		(uuid "e7f9a493-93bf-4b0f-8af4-3a836ce5dbda")
 		(effects
 			(font
 				(size 1 1)
