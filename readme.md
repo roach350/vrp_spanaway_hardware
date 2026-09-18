@@ -4,8 +4,7 @@ This device, when finished, will act as the first piece of reference hardware fo
 
 
 ## Hardware Overview
-The device is a two PCB design with "front board" containg the interface, MCU, and audio circuity. The "rear board" will handle power and modem. Both boards will interface via two 8 pin dupont headers. An alphanumeric tranflective display and a matrix of tactile 6mm push buttons will act a the primary user interface. The device will continue to use a mini-pcie form factor modem. All audio will be routed through an I2S codec and a mux will be used to switch sources (between the MCU or Modem). 3 AA sized NiMH batteries mounted on the rear board will power everything.
-
+The device is a two PCB design with "front board" containg the interface, MCU, and audio circuity. The "rear board" will handle power and modem. Both boards will interface via two 8 pin dupont headers. An alphanumeric tranflective display and a matrix of tactile 6mm push buttons will act a the primary user interface. The device will continue to use a mini-pcie form factor modem. All audio will be routed through an I2S codec and a mux will be used to switch sources (between the MCU or Modem). A single cell Li-Ion battery will power everything.
 
 ## Detailed Hardware Documentation
 ### Audio
